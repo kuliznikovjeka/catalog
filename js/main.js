@@ -146,9 +146,9 @@ function renderCart(cartCatalogArray) {
 		catalogCartBtnOrder.textContent = 'Заказать на сумму 0 рублей';
 		catalogCart.append(catalogCartBtnOrder);
 		return
-	} else if (cartCatalogArray.length > 4) {
+	} else if (cartCatalogArray.length > 3) {
 		catalogCart.classList.add('_scroll')
-	} else if (cartCatalogArray.length < 5) {
+	} else if (cartCatalogArray.length < 4) {
 		catalogCart.classList.remove('_scroll')
 	}
 
